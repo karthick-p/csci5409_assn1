@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">'
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script type="text/javascript" src="../JS/calculateMetrics.js"></script>
+</head>
+<body>
+<h1 class=header>CALCULATE BMI :</h1>
+<p class=description> Body Mass Index(BMI) is defined as the body mass divided by the square of the body height, and is
+    universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.</p>
+<p class=description>Instructions:</p>
+<ul>
+    <li>Enter your weight in kilograms and height in metres</li>
+    <li>Press calculate for the result</li>
+</ul>
+ <fieldset id="metrics" class="fieldBox">
+            <form id="form">
+                <label>Height :</label> <input type="number" step="0.01" id="lblHeight" placeholder="Metres" min="0.01" required><br>
+                <label> Weight :</label><input type="number" id="lblWeight" step="0.1" placeholder="Kilograms" min="1"
+                                               required><br>
+                <label> Result : </label>
+                <output type="number" id="lblResult"></output>
+                <button id="calculate" type="submit" onclick="return calculateMetrics()">Calculate</button>
+            </form>
+        </fieldset>
+   <p>
+       BMI Categories:
+       Underweight = <18.5,
+       Normal weight = 18.5–24.9,
+       Overweight = 25–29.9,
+       Obesity = BMI of 30 or greater.
+   </p>
+</body>
+</html>

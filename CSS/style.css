@@ -1,0 +1,101 @@
+body {
+    /* Image Reference
+    https://www.google.ca/search?q=doctor+background&rlz=1C1CHBF_enIN777IN777&tbm=isch&tbo=u&source=univ&sa=X&ved=2ahUKEwjA6ebFx5XbAhXStlkKHWz1ClgQsAR6BAgBECw&biw=1536&bih=759#imgrc=XkTatA4jHZCWQM:*/
+    background-image:url("../Images/bg.jpg");
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: Sans-serif;
+}
+
+.fieldBox {
+    position: relative;
+    width:40%;
+    margin-left: 10%;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+
+ul{
+    font-weight: bold;
+}
+p{
+    margin: 0.2% auto;
+    padding-left : 1.5%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    font-weight: bold ;
+}
+
+.header {
+    margin-top : -20px;
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+label{
+    position: relative;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    child-align: auto;
+}
+input {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    child-align: auto;
+    border: lightgray;
+    border-radius: 5px;
+    padding : 5px;
+    text-align: left;
+    width: 20%;
+    margin-left: 20px;
+}
+output {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    child-align: auto;
+    border: lightgray;
+    border-radius: 5px;
+    background: white;
+    text-align: left;
+    width: 20%;
+    margin-left: 20px;
+}
+
+
+button {
+    position: static;
+    display: inline-block;
+    float: left;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: lightgray;
+    background : green;
+    color : white;
+    font-size: 20px;
+}
+button:hover{
+    background: darkgreen;
+
+}
+
+
+
+
